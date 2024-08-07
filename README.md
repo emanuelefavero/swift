@@ -56,6 +56,7 @@ To exit the REPL, type `:exit` or `:q` and press `Enter`
 - [Conditional Statements](./examples/ConditionalStatements.swift)
 - [While Loops](./examples/WhileLoops.swift)
 - [For Loops](./examples/ForLoops.swift)
+- [Strings](./examples/Strings.swift)
 
 ## Resources
 

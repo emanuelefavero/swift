@@ -1,7 +1,6 @@
 // * Conditional Statements
 
 // If Statement
-
 let a = 10
 
 if a == 10 {
@@ -13,7 +12,6 @@ if a == 10 {
 }
 
 // Switch Statement
-
 // TIP: Swift does not require a break statement at the end of each case. If you want to fall through to the next case, you can use the fallthrough keyword.
 
 let b = 20
@@ -27,7 +25,6 @@ switch b {
 }
 
 // Ranges
-
 let c = 5
 
 switch c {
@@ -38,7 +35,6 @@ switch c {
 }
 
 // Where
-
 // TIP: You can use the where keyword to add extra conditions to your switch cases.
 
 let d = 10

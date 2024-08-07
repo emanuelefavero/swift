@@ -1,7 +1,6 @@
 // * While Loops
 
 // While
-
 var i = 0
 
 while i < 5 {
@@ -10,7 +9,6 @@ while i < 5 {
 }
 
 // Repeat-While
-
 // TIP: The repeat-while loop is useful when you want to execute the loop body at least once, regardless of the condition
 
 var j = 0
