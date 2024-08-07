@@ -2,6 +2,8 @@
 
 A repository for Swift code snippets, features, and techniques
 
+![logo](./logo.svg 'logo')
+
 ## Installation
 
 Follow the instructions [here](https://www.swift.org/install/macos/) to install Swift on your machine
