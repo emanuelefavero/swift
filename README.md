@@ -53,3 +53,7 @@ To exit the REPL, type `:exit` or `:q` and press `Enter`
 - [Getting Started with Swift](https://www.swift.org/getting-started/)
 - [SwiftUI](https://www.swift.org/getting-started/swiftui/)
 - [Swift Playgrounds](https://www.apple.com/swift/playgrounds/)
+
+## License
+
+- [MIT](LICENSE.md)
