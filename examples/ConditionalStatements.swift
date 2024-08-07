@@ -1,6 +1,6 @@
 // * Conditional Statements
 
-// * If Statement
+// If Statement
 
 let a = 10
 
@@ -12,7 +12,7 @@ if a == 10 {
   print("a is greater than 10")
 }
 
-// * Switch Statement
+// Switch Statement
 
 // TIP: Swift does not require a break statement at the end of each case. If you want to fall through to the next case, you can use the fallthrough keyword.
 
@@ -26,7 +26,7 @@ switch b {
     print("b is an Integer")
 }
 
-// * Ranges
+// Ranges
 
 let c = 5
 
@@ -37,7 +37,7 @@ switch c {
     print("c is not between 1 and 5")
 }
 
-// * Where
+// Where
 
 // TIP: You can use the where keyword to add extra conditions to your switch cases.
 
