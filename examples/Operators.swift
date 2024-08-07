@@ -38,3 +38,12 @@ var m = 2
 print(m ?? 0) // 2
 var n: Int? = nil
 print(n ?? 0) // 0
+
+// Range operators
+for i in 1...5 {
+  print(i) // 1, 2, 3, 4, 5
+}
+
+for i in 1..<5 {
+  print(i) // 1, 2, 3, 4
+}
