@@ -12,3 +12,9 @@ print("The value of pi is \(pi)")
 // Swift can infer the type of a variable, but you can also specify it explicitly:
 var age: Int = 30
 print("I am \(age) years old")
+
+// Variables can be assigned with any symbol
+var 🦜 = "Parrot"
+print(🦜)
+var π = 3.14159
+print(π)
