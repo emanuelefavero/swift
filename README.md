@@ -58,6 +58,7 @@ To exit the REPL, type `:exit` or `:q` and press `Enter`
 - [For Loops](./examples/ForLoops.swift)
 - [Strings](./examples/Strings.swift)
 - [Convert Data Types](./examples/ConvertDataTypes.swift)
+- [Control Transfer](./examples/ControlTransfer.swift)
 
 ## Resources
 
