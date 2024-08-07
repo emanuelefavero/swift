@@ -1,4 +1,5 @@
-// Variables
+// * Variables
+
 var name = "John"
 print("Hello \(name)")
 name = "Jane"

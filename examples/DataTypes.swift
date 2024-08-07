@@ -1,4 +1,5 @@
 // * Data Types
+
 // "Primitive" data types in Swift
 var a: Int = 42
 var b: Double = 3.14159
