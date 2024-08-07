@@ -50,6 +50,7 @@ To exit the REPL, type `:exit` or `:q` and press `Enter`
 - [Hello World](./examples/HelloWorld.swift)
 - [Variables](./examples/Variables.swift)
 - [Data Types](./examples/DataTypes.swift)
+- [Comments](./examples/Comments.swift)
 
 ## Resources
 
