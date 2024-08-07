@@ -52,6 +52,7 @@ To exit the REPL, type `:exit` or `:q` and press `Enter`
 - [Data Types](./examples/DataTypes.swift)
 - [Comments](./examples/Comments.swift)
 - [Operators](./examples/Operators.swift)
+- [Optionals](./examples/Optionals.swift)
 
 ## Resources
 
