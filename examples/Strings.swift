@@ -6,11 +6,21 @@ import Foundation // needed for .replacingOccurrences(of:, with:)
 var name: String = "John"
 print("Hello \(name)") // Hello John
 
+// Empty string
+var empty: String = ""
+print(empty.isEmpty) // true
+var empty2: String = String()
+print(empty2.isEmpty) // true
+
 // Concatenation
 var firstName: String = "John"
 var lastName: String = "Doe"
 var fullName: String = firstName + " " + lastName
 print(fullName) // John Doe
+
+var hello: String = "Hello"
+hello += " World!"
+print(hello) // Hello World!
 
 // Multiline strings
 var multiline: String = """
