@@ -62,6 +62,7 @@ To exit the REPL, type `:exit` or `:q` and press `Enter`
 - [Arrays](./examples/Arrays.swift)
 - [Sets](./examples/Sets.swift)
 - [Sets Operations](./examples/SetsOperations.swift)
+- [Dictionaries](./examples/Dictionaries.swift)
 
 ## Resources
 
