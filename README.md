@@ -61,6 +61,7 @@ To exit the REPL, type `:exit` or `:q` and press `Enter`
 - [Control Transfer](./examples/ControlTransfer.swift)
 - [Arrays](./examples/Arrays.swift)
 - [Sets](./examples/Sets.swift)
+- [Sets Operations](./examples/SetsOperations.swift)
 
 ## Resources
 
