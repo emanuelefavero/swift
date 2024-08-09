@@ -41,3 +41,29 @@ func calculate2(_ operation: Operation, a: Int, b: Int) -> Int {
 print(calculate2(subtract, a: 5, b: 2)) // 3
 
 // TIP: We used typealias to define a new name for the function type (Operation)
+
+// * Nested functions
+
+func outer() -> String {
+  func inner() -> String { "inner" }
+  return inner()
+}
+
+print(outer()) // inner
+
+// TIP: The inner function is only available within the outer function
+
+// * Recursion
+
+func factorial(_ n: Int) -> Int {
+  if n == 0 { return 1 }
+  return n * factorial(n - 1)
+}
+
+print(factorial(4)) // 24, 4 * 3 * 2 * 1
+
+// TIP: Recursion is when a function calls itself
+
+// We can also write a recursive function using a ternary operator:
+func fib(_ n: Int) -> Int { n < 2 ? n : fib(n - 1) + fib(n - 2) }
+print(fib(6)) // 8, 0 1 1 2 3 5 8
