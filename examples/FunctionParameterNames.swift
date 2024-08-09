@@ -26,3 +26,13 @@ func sum(_ nums: Int...) -> Int {
 }
 
 print(sum(1, 2, 3)) // 6, 1 + 2 + 3
+
+// * In-Out Parameters
+// In-out parameters allow you to modify the value of a parameter inside a function.
+
+func increment(_ a: inout Int) { a += 1 }
+
+var num = 10
+increment(&num) // TIP: & is needed to pass the variable by reference
+
+print(num) // 11
