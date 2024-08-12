@@ -63,3 +63,26 @@ print(person.age) // 22
 
 print(user.increaseAge()) // 21, increase the age by 1 and returns it
 print(person.increaseAge()) // 23
+
+// * Value vs Reference Types
+
+// TIP: Structures are value types and are copied, classes are reference types and are passed by reference
+
+var user2: User = user
+var person2: Person = person
+
+user2.age = 25
+person2.age = 27
+
+// The age of the original user structure is not changed since the user2 structure is a copy of the user structure
+print(user.age) // 21
+
+// The age of the original person class is changed since the person2 class is a reference to the person class
+print(person.age) // 27
+
+
+// * Identity Operator
+
+// Use === to check if two constants or variables refer to the same instance of a class
+let person3: Person = person
+print(person === person3) // true
