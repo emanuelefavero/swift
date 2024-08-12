@@ -67,3 +67,27 @@ class User4 {
 
 var user4: User4? = User4(name: "")
 print(user4) // nil
+
+// ---
+
+// * De-initialization
+// De-initialization is the process of releasing the resources that were allocated when the instance was created
+
+// TIP: deinit can only be used with classes
+
+class User5 {
+  var name: String
+
+  init(name: String) {
+    self.name = name
+  }
+
+  deinit {
+    print("User \(name) is being de-initialized")
+  }
+}
+
+var user5: User5? = User5(name: "John")
+
+// TIP: The deinit method is called automatically when the instance is deallocated
+user5 = nil // User John is being de-initialized
