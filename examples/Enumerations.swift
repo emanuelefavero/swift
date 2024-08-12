@@ -44,3 +44,27 @@ enum Color5: Int {
 
 print(Color5.red.rawValue) // 1
 print(Color5.green.rawValue) // 2
+
+// * Enums Methods
+// You can define methods on enumerations
+
+enum Direction {
+  case north, south, east, west
+
+  func getOpposite() -> Direction {
+    switch self {
+    case .north: return .south
+    case .south: return .north
+    case .east: return .west
+    case .west: return .east
+
+    // TIP: You must handle all cases of the enumeration in the switch statement
+    }
+  }
+}
+
+var direction: Direction = .north
+print(direction.getOpposite()) // south
+
+// TIP: You can also call the method on the enumeration case itself
+print(Direction.east.getOpposite()) // west
