@@ -29,3 +29,14 @@ struct Counter {
 var counter: Counter = Counter()
 counter.increment(num: 10)
 print(counter.num) // 10
+
+// * Type Methods
+// Type methods are methods that are called on the type itself and it is defined using the static keyword
+
+struct Math {
+  static func add(a: Int, b: Int) -> Int {
+    return a + b
+  }
+}
+
+print(Math.add(a: 10, b: 20)) // 30
